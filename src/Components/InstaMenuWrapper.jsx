@@ -1,16 +1,7 @@
+
 import { InstaHeading } from './InstaHeading';
 import { InstaMenuMapping } from './InstaMenuMapping';
 import { MenuDisplay } from './MenuDisplay';
-
-const menulists = [
-    {icon: "fa-home", iconTitle: "Home"},
-    {icon: "fa-search", iconTitle: "Search"},
-    {icon: "fa-bandcamp", iconTitle: "Explore"},
-    {icon: "fab fa-facebook-messenger", iconTitle: "Messages"},
-    {icon: "fa-regular fa-heart", iconTitle: "Notification"},
-    {icon: "fa-plus-square", iconTitle: "Create"},
-    {icon: "fa-solid fa-circle-user", iconTitle: "Profile"} 
-    ];
 
 export const InstaMenuWrapper = () => {
     return (
@@ -30,7 +21,7 @@ export const InstaMenuWrapper = () => {
               py-6 px-4">
             <div className="insta-menu-lists-wrapper flex flex-col gap-8 ">
                 <InstaHeading />
-                <InstaMenuMapping menulists={menulists} />
+                <InstaMenuMapping />
             </div>
             <div className="more-menu-wrapper">
                 <MenuDisplay icon="fa-solid fa-bars" iconTitle="More" />

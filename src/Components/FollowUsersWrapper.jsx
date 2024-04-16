@@ -11,7 +11,7 @@ const width="w-12"
 const feature = "ring-slate-300";
 const iconName = "Switch";
 const textSize = "text-md lg:text-lg"
-const btnFeature = "text-blue-500 mb-4";
+const btnFeature = "font-medium text-blue-300 mb-4";
 
 export const FollowUsersWrapper = () => {
     return (

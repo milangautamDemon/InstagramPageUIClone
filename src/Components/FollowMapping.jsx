@@ -15,7 +15,7 @@ const followUser = [
         iconName: "Follow",
         image: followUserImage1,
         textSize: "text-md",
-        btnFeature: "text-bold text-blue-500"
+        btnFeature: "font-medium text-blue-300"
     },
     {
         userName: "border_wulf",
@@ -26,7 +26,7 @@ const followUser = [
         iconName: "Follow",
         image: followUserImage2,
         textSize: "text-md",
-        btnFeature: "text-bold text-blue-500"
+        btnFeature: "font-medium text-blue-300"
     },
     {
         userName: "the_first_tutle",
@@ -37,7 +37,7 @@ const followUser = [
         iconName: "Follow",
         image: followUserImage3,
         textSize: "text-md",
-        btnFeature: "text-bold text-blue-500"
+        btnFeature: "font-medium text-blue-300"
     },
     {
         userName: "amazing_nepal",
@@ -48,7 +48,7 @@ const followUser = [
         iconName: "Follow",
         image: followUserImage4,
         textSize: "text-md",
-        btnFeature: "text-bold text-blue-500"
+        btnFeature: "font-medium text-blue-300"
     },
     {
         userName: "ramarau",
@@ -59,7 +59,7 @@ const followUser = [
         iconName: "Follow",
         image: followUserImage5,
         textSize: "text-md",
-        btnFeature: "text-bold text-blue-500"
+        btnFeature: "font-medium text-blue-300"
     }
 ]
 

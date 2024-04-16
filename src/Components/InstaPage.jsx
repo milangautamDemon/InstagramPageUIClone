@@ -8,7 +8,7 @@ export const InstaPage = () => {
             <div className="insta-page h-full w-[400px] lg:w-[450px] xl:w-[550px] py-5 flex flex-col items-center md:items-end gap-4 overflow-hidden">
                 <InstaStories />
                 <NewsFeedWrapper />
-                <NewsFeedWrapper />
+                {/* <NewsFeedWrapper /> */}
             </div>
         </div>
     )
